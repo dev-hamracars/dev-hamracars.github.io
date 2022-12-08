@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="extras/ico/wave-icon.png">
+    <link rel="shortcut icon" href="extras/ico/favicon1.ico">
+
+    <!-- CSS Global -->
+    <link href="extras/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="extras/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="extras/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="extras/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="extras/plugins/owl-carousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="extras/plugins/owl-carousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="extras/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="extras/plugins/swiper/css/swiper.min.css" rel="stylesheet">
+
+    <link href="extras/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <link href="extras/plugins/countdown/jquery.countdown.css" rel="stylesheet">
+    <link href="extras/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="extras/css/theme.css" rel="stylesheet">
+
+    <title>Hamra Rent A Car</title>
+    
+    <!-- JS Global -->
+    <script src="extras/plugins/jquery/jquery-1.11.1.min.js"></script>
+    <script src="extras/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="extras/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="extras/plugins/superfish/js/superfish.min.js"></script>
+    <script src="extras/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+    <script src="extras/plugins/owl-carousel2/owl.carousel.min.js"></script>
+    <script src="extras/plugins/jquery.sticky.min.js"></script>
+    <script src="extras/plugins/jquery.easing.min.js"></script>
+    <script src="extras/plugins/jquery.smoothscroll.min.js"></script>
+    <!--<script src="extras/plugins/smooth-scrollbar.min.js"></script>-->
+    <script src="extras/plugins/swiper/js/swiper.jquery.min.js"></script>
+    <script src="extras/plugins/datetimepicker/js/moment-with-locales.min.js"></script>
+    <script src="extras/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- JS Page Level -->
+    <script src="extras/js/theme-ajax-mail.js"></script>
+    <script src="extras/js/theme.js"></script>
+    <!--<script @="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>-->
+    <script type="text/javascript">
+      jQuery(window).load(function () { jQuery('#body-content').scrollspy({offset: 100, target: '.navigation'}); });
+      jQuery(window).load(function () { jQuery('#body-content').scrollspy('refresh'); });
+      jQuery(window).resize(function () { jQuery('#body-content').scrollspy('refresh'); });
+      jQuery(window).load(function() {
+        if (location.hash != '') {
+          var hash = '#' + window.location.hash.substr(1);
+          if (hash.length) {
+            jQuery('html,#body-content').delay(0).animate({
+              scrollTop: jQuery(hash).offset().top - 44 + 'px'
+            }, {
+              duration: 1200,
+              easing: "easeInOutExpo"
+            });
+          }
+        }
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index.f1701a88.js"></script>
+    <link rel="stylesheet" href="/assets/index.ff319e01.css">
+  </head>
+  <body>
+    <div id="app" class="wrapper"></div>
+    
+  </body>
+</html>
