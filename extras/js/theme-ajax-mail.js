@@ -18,7 +18,7 @@ $(function () {
             return false;
         }
         var email = $("#contact-form input#email").val();
-        var filter = /^[a-zA-Z0-9]+[a-zA-Z0-9_.-]+[a-zA-Z0-9_-]+@[a-zA-Z0-9]+[a-zA-Z0-9.-]+[a-zA-Z0-9]+.[a-z]{2,4}$/;
+        var filter = /^[a-zA-Z0-9.!#$%&\'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         //console.log(filter.test(email));
         if (!filter.test(email)) {
             $("#contact-form input#email").tooltip({placement: 'bottom', trigger: 'manual'}).tooltip('show');
@@ -40,16 +40,6 @@ $(function () {
 
         var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message;
         //alert (dataString);return false;
-
-        $.ajax({
-            type:"POST",
-            url:"src/assets/php/contact-form.php",
-            data:dataString,
-            success:function () {
-                $('#contact-form').append("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>Contact Form Submitted!</strong> We will be in touch soon.</div>");
-                $('#contact-form')[0].reset();
-            }
-        });
         return false;
     });
 });
