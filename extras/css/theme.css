@@ -247,11 +247,6 @@ body {
   background-color: #14181c;
   color: #8e9091;
 }
-.page-section.image {
-  background: url(../img/page-section-image.png) center top no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
 .page-section.of-visible {
   overflow: visible;
 }
@@ -2786,18 +2781,6 @@ input[type=checkbox] {
   .main-slider .item {
     min-height: 850px;
   }
-}
-.main-slider .slide1 {
-  background-image: url('../img/preview/slider/slide-1.jpg');
-}
-.main-slider .slide2 {
-  background-image: url('../img/preview/slider/slide-1.jpg');
-}
-.main-slider .slide3 {
-  background-image: url('../img/preview/slider/slide-2.jpg');
-}
-.main-slider .slide4 {
-  background-image: url('../img/preview/slider/slide-3.jpg');
 }
 .main-slider-row .slider .main-slider .owl-nav [class*=owl-] {
   position: absolute;
@@ -7933,10 +7916,6 @@ input[type=checkbox] {
 /* 5.14 */
 /* Contact form
 /* ========================================================================== */
-.page-section.contact {
-  background: url(../img/preview/page-section-contact-2.jpg) center top no-repeat;
-  background-size: cover;
-}
 .page-section.contact:after {
   content: '';
   display: block;
