@@ -448,7 +448,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x1 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -457,7 +457,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x2 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -466,7 +466,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x3 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -475,7 +475,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x4 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -484,7 +484,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x5 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -494,7 +494,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider2x1 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -503,7 +503,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider2x2 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -512,7 +512,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider2x3 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -521,7 +521,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider2x4 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -530,7 +530,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider2x5 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -540,7 +540,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider3x1 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -549,7 +549,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider3x2 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -558,7 +558,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider3x3 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -567,7 +567,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider3x4 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -576,7 +576,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider3x5 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -586,7 +586,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider4x1 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -595,7 +595,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider4x2 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -604,7 +604,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider4x3 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -613,7 +613,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider4x4 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }
@@ -622,7 +622,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider4x5 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="src/assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="' + document.location.origin + '/extras/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
                 }
             });
         }

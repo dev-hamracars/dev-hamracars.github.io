@@ -87,7 +87,7 @@ var themeConfig = {
         var $this = this;
         if (this.init) return;
 
-        $('head').append($('<link rel="stylesheet">').attr('href', '/assets/css/theme-config.css'));
+        $('head').append($('<link rel="stylesheet">').attr('href', document.location+origin + '/extras/css/theme-config.css'));
         $this.build();
         $this.events();
 
@@ -242,7 +242,7 @@ var themeConfig = {
         if (this.isChanging) {
             return false;
         }
-        $colorConfigLink.attr('href', '/assets/css/theme-' + color + '.css');
+        $colorConfigLink.attr('href', document.location.origin + '/extras/css/theme-' + color + '.css');
         $.cookie('color', color);
     },
     setLayout: function (layout) {
